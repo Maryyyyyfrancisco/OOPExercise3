@@ -1,0 +1,27 @@
+package composition;
+
+public class Pirate{
+    private String name;
+    private String skill;
+
+    public Pirate() {
+        name = "Unassigned";
+        skill = "Unassigned";
+    }
+
+    public String getSkill() {
+        return skill;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setSkill(String power) {
+        skill = power;
+    }
+
+    public void setName(String pirateName) {
+        name = pirateName;
+    }
+}
