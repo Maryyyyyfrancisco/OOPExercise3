@@ -1,0 +1,11 @@
+package Composition:
+
+public class Main{
+	public static void Main(String[] args){
+		Phone samsung= mew Phone ("Black");
+		Power power= new Power();
+		samsung= new Phone("black");
+		
+		System.out.println(samsung.getColour());
+	}
+}
